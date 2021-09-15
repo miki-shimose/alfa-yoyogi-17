@@ -247,8 +247,7 @@ button {
   background-color: #000; 
 }
 .bg-color--subcolor p {
-  /*background-color: #d9e021;*/
-  background-color: #fff; 
+  color: #fff; 
 }
 
 .bg-color--gray {
