@@ -445,7 +445,8 @@ button {
 }
 
 .err-message {
-  color: #c1272d;
+  /*color: #c1272d;*/
+  color: #ff0505;
   font-size: 18px;
   text-align: center;
 }
