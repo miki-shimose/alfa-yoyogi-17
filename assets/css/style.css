@@ -300,7 +300,8 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  /*background-color: #39b54a;*/
+  background-color: #000;
 }
 
 .section-title--story {
