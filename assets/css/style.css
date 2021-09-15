@@ -254,6 +254,10 @@ button {
   background-color: #e6e6e6;
 }
 
+.bg-color--gray .section-title {
+  color:#000 !important;
+}
+
 /*********************
 * title
 **********************/
