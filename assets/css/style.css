@@ -78,7 +78,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
+  background-color: #292929;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -454,6 +454,7 @@ button {
   text-align: center;
   display: block;
   margin-top: 20px;
+  color:#fff !important;
 }
 
 .clear-message {
