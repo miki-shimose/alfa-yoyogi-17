@@ -243,7 +243,12 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  /*background-color: #d9e021;*/
+  background-color: #000; 
+}
+.bg-color--subcolor p {
+  /*background-color: #d9e021;*/
+  background-color: #fff; 
 }
 
 .bg-color--gray {
@@ -311,7 +316,8 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  /*color: #006837;*/
+  color: #fff;
 }
 
 .section-title--border::after {
