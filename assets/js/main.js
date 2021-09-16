@@ -29,6 +29,11 @@ const app = Vue.createApp({
           q1: '8126',
           // q2: 'かかか',
           // q3: 'ききき',
+        },
+        stage4: {//ステージ4を追加
+          q1: 'ざしきわらし',
+          // q2: 'かかか',
+          // q3: 'ききき',
         }
       },
 
@@ -48,6 +53,9 @@ const app = Vue.createApp({
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
+        ],
+        stage4: [//追加
+          false, // 4-1
         ]
       },
 
@@ -56,6 +64,7 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false, //追加
       },
 
       /* 次のステージを表示するかどうか
@@ -64,6 +73,7 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage3: false, //追加
       },
     }
   },
