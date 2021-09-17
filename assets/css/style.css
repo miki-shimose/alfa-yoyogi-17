@@ -128,6 +128,7 @@ button {
   border:1px solid #8a8a8a;
   border-radius:40px;
   padding:40px 0;
+  background-color:#fff;
 }
 
 .tweet-message {
