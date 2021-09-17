@@ -134,10 +134,15 @@ button {
   margin-left:30px;
 }
 
+.twitter-img-area {
+  text-algin:center;  
+}
+
 .twitter-img {
   padding:20px;
   border:1px solid #8a8a8a;
   border-radius:20px;
+  max-width:95%;
 }
 
 @media screen and (max-width: 1100px) {
