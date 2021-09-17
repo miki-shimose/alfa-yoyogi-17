@@ -121,6 +121,9 @@ button {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.twitter-area {
   border:1px solid #8a8a8a;
   border-radius:20px;
 }
