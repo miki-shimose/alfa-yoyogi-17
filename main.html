@@ -29,16 +29,13 @@
 
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
-        <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
           <p class="text-center">まずは、推しがどこに閉じ込められているかを突き止めなければならない。<br>
             推しがツイートした下の画像に隠されている謎を解き、どこに閉じ込められているかをキーワード欄に入力しよう。<br>
             キーワードはひらがなで答える必要があるぞ!</p>
           <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
-          <!-- STAGE2-1　ここから -->
           <div class="column　twitter-area">
-            <!-- STAGE2-1問題セクション　ここから -->
             <figure class="image__container">
               <img src="assets/images/twitter-name-icon.png" alt="">
             </figure>
@@ -47,16 +44,12 @@
             <figure class="image__container twitter-img-area">
               <img class="twitter-img" src="assets/images/stage1.png" alt="">
             </figure>
-            <!-- STAGE2-1問題セクション　ここまで -->
-            <!-- STAGE2-1解答入力セクション　ここから -->
+
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
-            <!-- STAGE2-1解答入力セクション　ここまで -->
-          </div><!-- /.column -->
-          <!-- STAGE2-1　ここまで -->
+          </div>
         </section>
-        <!-- STAGE1問題セクション　ここまで -->
 
         <!-- STAGE1クリア画面　ここから -->
         <!------------------------------------------------------------------------------------------------------
