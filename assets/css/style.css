@@ -502,6 +502,7 @@ button {
   text-align: center;
   display: block;
   margin-top: 20px;
+  color:#000 !important;
 }
 
 .clear-message {
