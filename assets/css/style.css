@@ -54,7 +54,6 @@ input[type=text] {
   display: block;
   margin: 0 auto;
   /*max-width: 580px;*/
-  border-radius:15px;
   outline:none;
   width: 100%;
 }
