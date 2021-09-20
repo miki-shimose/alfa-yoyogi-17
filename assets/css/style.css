@@ -265,7 +265,8 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #5e5e5e;
+  /*background-color: #5e5e5e;*/
+  background-color: #fff;
 }
 
 .bg-color--subcolor {
