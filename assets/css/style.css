@@ -55,6 +55,7 @@ input[type=text] {
   margin: 0 auto;
   /*max-width: 580px;*/
   border-radius:15px;
+  outline:none;
   width: 100%;
 }
 
@@ -79,12 +80,16 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  /*background-color: #292929;*/
-  background-color:#198cd8;
-  border-radius:15px;
+  background-color: #292929;
   color: #fff;
   width: 287px;
   height: 55px;
+}
+
+
+.answer__container button {
+  background-color:#198cd8;
+  border-radius:15px;
 }
 
 /*******************
